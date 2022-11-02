@@ -1,6 +1,6 @@
 
 const txt = 'prout';
-const speed = 1000;
+const speed = 10;
 
 const exercice1 = document.getElementById('exercice1');
 

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="./script.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet"> 
+  <title>Project planner</title>
+</head>
+<body>
+  <div id="List"></div>
+  <hr>
+  <main>
+    <select id="organize">
+     <option value="a">SORT BY NAME</option>
+     <option value="b">SORT BY DATE</option>
+    </select>
+    <select id="filterStatus">
+     <option value="c">SHOW ALL</option>
+     <option value="d">SHOW TO DO</option>
+     <option value="e">SORT DOING</option>
+     <option value="f">SORT DONE</option>
+    </select>
+    <div class="column">
+    
+    <p>NAME</p>
+    <input type="text" id="name">
+    <p>DESCRIPTION</p>
+    <input type="text" id="description">
+    <p>STATUS</p>
+    <select id="status">
+     <option value="0">TO DO</option>
+     <option value="1">DOING</option>
+     <option value="2">DONE</option>
+    </select>
+    <input type="date" id="date">
+    <button id="Add">ADD</button> 
+    </div>
+    <div class="edit">
+          <p>NAME</p>
+          <input type="text" id="editName">
+          <p>DESCRIPTION</p>
+          <input type="text" id="editDescription">
+          <p>Status</p>
+          <select id="editStatus">
+              <option value="0">To do</option>
+              <option value="1">Doing</option>
+              <option value="2">Done</option>
+          </select>
+          <input type="date" id="editDate">
+          <button id="Ok">OK</button>
+    </div>
+    </main>
+</body>
+</html>

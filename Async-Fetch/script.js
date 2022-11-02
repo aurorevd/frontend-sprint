@@ -6,15 +6,15 @@ button.addEventListener("click", () => {
   fetch("./becode.json")
   .then((response) => response.json())
   .then((text) => {
-    const list=document.createElement("ul");
+    const ul=document.createElement("ul");
     f=document.querySelector(".fetch");
     button.style.display="none";
 
-    f.appendChild(list);
+    f.appendChild(ul);
     for(let i=0; i<text.length; i++){
-      elementlist=document.createElement("li");
-      elementlist.textContent=text[i];
-      list.append(elementlist);
+      li=document.createElement("li");
+      li.textContent=text[i];
+      ul.append(li);
     }
   });
 });

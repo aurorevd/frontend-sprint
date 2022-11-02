@@ -18,10 +18,10 @@ function moles() {
   circles[i].style.backgroundColor = 'white';
   circles[i].style.boxShadow = 'inset 30px 20px black';
   }
-  setTimeout(byemoles, 1000);
+  setTimeout(byemoles, 2000);
 }
 
-setInterval(moles, 2000);
+setInterval(moles, 3000);
 
 score=document.querySelector(".score");
 let hit = 0;

@@ -1,0 +1,102 @@
+*{
+margin: 0;
+font-family: Helvetica;
+font-weight: bold;
+font-size: 20px;
+}
+body{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  width: 300px;
+  border: solid 1px black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button{
+  background-color: white;
+  color:black;
+  border: solid black 1px;
+  padding: 5px;
+  font-size: 15px;
+}
+select{
+  margin-top: 20px;
+}
+
+
+.task {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  color: pink;
+  margin-top: 25px;
+  e
+  font-size: 35px;
+}
+
+.deleteButton{
+  background: pink;
+}
+
+#ok{
+  background-color: pink;
+}
+
+.edit{
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+  background-color: pink;
+}
+
+.flex{
+display: flex;
+justify-content: space-between;
+width: 50%;
+margin-top: 20px;
+}
+  
+
+#List{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90vw;
+  margin-bottom: 70px;
+}
+
+#Add{
+  padding: 5px;
+  font-size: 25px;
+  background-color: black;
+  color: white;
+
+}
+
+#editStatus{
+  margin-top: 20px;
+}
