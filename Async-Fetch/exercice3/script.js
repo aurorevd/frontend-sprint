@@ -17,7 +17,7 @@ fetchName(input.value, select.value )
   newDiv.textContent=json.age +"  " + input.value + "  "+ json.count+" "+select.value;
   let data =window.localStorage.setItem(input.value, json.age+ "  "+ json.count+" "+select.value);
  data=[];
-console.log(data);
+console.log(data[ Brussels]);
 })
 .catch(error => {
   console.log('There was an error!', error);
