@@ -6,7 +6,7 @@ const main=document.querySelector("#main");
 
 const Weather =() => {
 
-let apiKey = "3473f8d955aa202dfd26ba1e7a12d5d3";
+let apiKey = "";
 
 
 button.addEventListener("click", () =>{
